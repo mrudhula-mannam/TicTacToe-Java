@@ -14,7 +14,7 @@ public class TicTacToe {
         size = sc.nextInt();
         board = new char[size][size];
         initializeBoard();
-        char currentPlayer = 'X';
+        char currentPlayerSymbol = 'X';
         String currentPlayerName = player1;
         while (true) {
             printBoard();
@@ -156,4 +156,5 @@ public class TicTacToe {
         }
         return true;
     }
+
 }
